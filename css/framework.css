@@ -1,0 +1,72 @@
+:root {
+  --white-color: #fff;
+  --main-transition: 0.3s;
+}
+
+/* start flex */
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+/* end flex */
+
+.d-block {
+  display: block;
+}
+
+/* start padding */
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+/* end padding */
+
+/* start margin */
+.mt-100 {
+  margin-top: 100px;
+}
+/* end margin */
+
+/* start position */
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+/* end position */
+
+/* start colors */
+.white-color {
+  color: var(--white-color);
+}
+/* end colors */
+
+/* start width */
+.w-100 {
+  width: 100%;
+}
+/* end width */
