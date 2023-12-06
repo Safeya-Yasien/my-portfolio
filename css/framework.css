@@ -63,6 +63,10 @@
 .white-color {
   color: var(--white-color);
 }
+
+.bg-white {
+  background-color: var(--white-color);
+}
 /* end colors */
 
 /* start width */

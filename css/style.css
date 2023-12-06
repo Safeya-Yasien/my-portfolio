@@ -44,6 +44,7 @@ a {
   color: var(--white-color);
   font-size: 40px;
   margin: 0;
+  margin-bottom: 50px;
 }
 /* end component */
 html {
@@ -232,12 +233,16 @@ header .icons i {
 }
 
 .about .container {
+  justify-content: flex-end;
 }
 
 .about .image img {
   width: 200px;
-  border-radius: 15px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .about .info {
+  border-radius: 15px;
 }
