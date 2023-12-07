@@ -40,13 +40,19 @@ a {
 
 /* start component */
 .special-head {
+  position: relative;
   text-align: center;
   color: var(--white-color);
   font-size: 40px;
   margin: 0;
   margin-bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
 }
+
 /* end component */
+
 html {
   scroll-behavior: smooth;
 }
@@ -220,6 +226,23 @@ header .icons i {
 .landing .text h1 {
   font-size: 70px;
   line-height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: control-width 3s steps(28) both;
+}
+
+@keyframes control-width {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 418px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -252,3 +275,5 @@ header .icons i {
 .about .info {
   border-radius: 15px;
 }
+
+/* services */
