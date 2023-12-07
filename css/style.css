@@ -94,6 +94,8 @@ header .container {
   header .container {
     justify-content: space-between;
     flex-direction: row-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -116,6 +118,10 @@ header .toggle-menu {
 @media (max-width: 767px) {
   header .links ul {
     display: none;
+  }
+
+  header .toggle-menu {
+    padding: 0;
   }
 
   header .toggle-menu:hover + ul {
