@@ -15,6 +15,12 @@
 
 /* end flex */
 
+/* start grid */
+.d-grid {
+  display: grid;
+}
+/* end grid */
+
 .d-block {
   display: block;
 }
@@ -74,3 +80,9 @@
   width: 100%;
 }
 /* end width */
+
+/* start border */
+.radius-15 {
+  border-radius: 15px;
+}
+/* end border */
