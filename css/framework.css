@@ -82,7 +82,12 @@
 /* end width */
 
 /* start border */
+.radius-10 {
+  border-radius: 10px;
+}
+
 .radius-15 {
   border-radius: 15px;
 }
+
 /* end border */
