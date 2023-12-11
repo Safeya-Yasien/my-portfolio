@@ -83,8 +83,8 @@ html {
 
 body {
   background-color: #1f1f1f;
-  height: 4000px;
   font-family: "Cairo", sans-serif;
+  height: 8000px;
 }
 
 header {
@@ -443,4 +443,80 @@ header .icons i {
 .portfolio .box .info a:hover {
   background-color: #865465;
   position: relative;
+}
+
+/* contact */
+.contact .container {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  background-color: #191919;
+}
+
+.contact .box {
+  padding: 20px;
+}
+
+.contact .box .title {
+  font-size: 20px;
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.contact .box form input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #a9a9a9;
+}
+
+.contact .box form select {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: #a9a9a9;
+}
+
+.contact .box form input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact .box form input:focus,
+.contact .box form select:focus {
+  outline: none;
+}
+
+.contact .box form input::placeholder {
+  color: black;
+}
+
+.contact .box form select {
+  margin-bottom: 20px;
+}
+
+.contact .box {
+}
+
+.contact .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.contact .icons p {
+  color: #a9a9a9;
+  margin-right: 10px;
+}
+
+.contact .icons a {
+  transition: var(--main-transition);
+}
+
+.contact .icons a:hover {
+  color: #865465;
+}
+
+.contact .icons a:not(:last-child) {
+  margin-right: 10px;
 }
