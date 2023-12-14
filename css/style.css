@@ -66,6 +66,7 @@ html {
 
 ::-webkit-scrollbar {
   width: 15px;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -266,6 +267,7 @@ header .icons i {
 /* about */
 .about .container {
   justify-content: center;
+  gap: 20px;
 }
 
 @media (max-width: 767px) {
@@ -292,8 +294,57 @@ header .icons i {
 }
 
 .about .info {
-  border-radius: 15px;
+  order: 2;
+}
+
+.about .personal-info {
   line-height: 1.6;
+}
+
+.about .info-header {
+  margin-bottom: 15px;
+}
+
+.about .personal-skills {
+  order: 1;
+}
+
+.about h3 {
+  text-align: center;
+}
+
+.about .personal-skills {
+  min-width: 300px;
+}
+
+.about .personal-skills .prog-holder .prog {
+  width: 100%;
+  height: 20px;
+  background-color: #a9a9a9;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.about .personal-skills .prog-holder .prog span {
+  display: block;
+  background-color: #00ac7c;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.about .personal-skills .prog-holder .prog span::before {
+  content: attr(data-progress);
+  position: absolute;
+  color: var(--main-color);
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  right: 0;
+  top: -30px;
+  width: fit-content;
+  padding: 3px 5px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* services */

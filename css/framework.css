@@ -26,6 +26,10 @@
 }
 
 /* start padding */
+.pt-20 {
+  padding-top: 20px;
+}
+
 .pl-10 {
   padding-left: 10px;
 }
@@ -51,6 +55,10 @@
 /* start margin */
 .mt-100 {
   margin-top: 100px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }
 /* end margin */
 
