@@ -54,6 +54,8 @@ a {
   left: 50%;
   transform: translateX(-50%);
   width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 /* end component */
@@ -84,7 +86,6 @@ html {
 body {
   background-color: #1f1f1f;
   font-family: "Cairo", sans-serif;
-  height: 8000px;
 }
 
 header {
@@ -375,7 +376,7 @@ header .icons i {
   left: 0;
   width: 0;
   height: 0;
-  background-color: rgb(0, 0, 0, 50%);
+  background-color: rgb(0, 0, 0, 20%);
   z-index: -1;
   transition: 0.3s;
 }
@@ -393,7 +394,7 @@ header .icons i {
 .portfolio .box .icon {
   position: absolute;
   top: 5px;
-  right: -20px;
+  right: -25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -408,6 +409,15 @@ header .icons i {
 .portfolio .box .icon i {
   transition: var(--main-transition);
   color: black;
+  transition: var(--main-transition);
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio .box .icon i:hover {
@@ -494,7 +504,21 @@ header .icons i {
   margin-bottom: 20px;
 }
 
-.contact .box {
+.contact button {
+  width: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #00ac7c;
+  border: none;
+  font-weight: bold;
+}
+
+.contact button:hover {
+  background: #004f38;
+}
+
+.contact button:focus {
+  outline: none;
 }
 
 .contact .icons {
