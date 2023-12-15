@@ -332,10 +332,8 @@ header .icons i {
   content: attr(data-progress);
   position: absolute;
   color: var(--main-color);
-  border: 1px solid var(--paragraph-color);
   border-radius: 5px;
   right: 0;
-  top: -30px;
   width: fit-content;
   padding: 3px 5px;
   font-size: 12px;
@@ -503,6 +501,7 @@ header .icons i {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   background-color: var(--bg-main-color);
+  margin-bottom: 20px;
 }
 
 .contact .box {
