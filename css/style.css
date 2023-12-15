@@ -90,10 +90,9 @@ body {
 }
 
 header {
-  background-color: #191919;
+  background-color: var(--bg-main-color);
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1000;
 }
 
@@ -114,8 +113,6 @@ header .container {
 
 header .toggle-menu {
   color: var(--white-color);
-  display: flex;
-  align-items: center;
   justify-content: flex-end;
   font-size: 30px;
   cursor: pointer;
@@ -144,7 +141,7 @@ header .toggle-menu {
     top: 100%;
     left: 50px;
     width: calc(100% - 100px);
-    background-color: #191919;
+    background-color: var(--bg-main-color);
     left: 0;
     width: 100%;
     padding-right: 50px;
@@ -153,7 +150,7 @@ header .toggle-menu {
 }
 
 header .links ul li a {
-  color: #a9a9a9;
+  color: var(--paragraph-color);
   transition: var(--main-transition);
 }
 
@@ -261,7 +258,7 @@ header .icons i {
 
 .landing .text p {
   font-size: 20px;
-  color: #a9a9a9;
+  color: var(--paragraph-color);
 }
 
 /* about */
@@ -318,11 +315,9 @@ header .icons i {
 }
 
 .about .personal-skills .prog-holder .prog {
-  width: 100%;
   height: 20px;
-  background-color: #a9a9a9;
+  background-color: var(--paragraph-color);
   margin-bottom: 20px;
-  border-radius: 15px;
 }
 
 .about .personal-skills .prog-holder .prog span {
@@ -337,7 +332,7 @@ header .icons i {
   content: attr(data-progress);
   position: absolute;
   color: var(--main-color);
-  border: 1px solid #a9a9a9;
+  border: 1px solid var(--paragraph-color);
   border-radius: 5px;
   right: 0;
   top: -30px;
@@ -354,13 +349,9 @@ header .icons i {
 }
 
 .services .box {
-  background-color: #191919;
+  background-color: var(--bg-main-color);
   transition: var(--main-transition);
 }
-
-/* .services .box:hover {
-  background-color: #d2691e;
-} */
 
 .services .box i {
   color: white;
@@ -403,7 +394,7 @@ header .icons i {
 
 .services .box p {
   line-height: 1.6;
-  color: #a9a9a9;
+  color: var(--paragraph-color);
 }
 
 /* portfolio */
@@ -413,7 +404,7 @@ header .icons i {
 }
 
 .portfolio .box {
-  background-color: #191919;
+  background-color: var(--bg-main-color);
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 0 10px #9a9a9a;
@@ -481,7 +472,7 @@ header .icons i {
 }
 
 .portfolio .box .info p {
-  color: #a9a9a9;
+  color: var(--paragraph-color);
   font-size: 14px;
   margin-top: 10px;
 }
@@ -511,7 +502,7 @@ header .icons i {
 .contact .container {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
-  background-color: #191919;
+  background-color: var(--bg-main-color);
 }
 
 .contact .box {
@@ -529,14 +520,14 @@ header .icons i {
   width: 100%;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: #a9a9a9;
+  background-color: var(--paragraph-color);
 }
 
 .contact .box form select {
   width: 100%;
   padding: 0px 10px;
   border-radius: 10px;
-  background-color: #a9a9a9;
+  background-color: var(--paragraph-color);
 }
 
 .contact .box form input:not(:last-child) {
@@ -563,8 +554,7 @@ header .icons i {
   background-color: #00ac7c;
   border: none;
   font-weight: bold;
-  display: flex;
-  align-items: center;
+  cursor: pointer;
   justify-content: center;
   height: 45px;
   grid-area: 2 / 2 / 2 / 2;
@@ -585,8 +575,6 @@ header .icons i {
 }
 
 .contact .icons {
-  display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 20px;
   padding-bottom: 20px;
@@ -600,7 +588,7 @@ header .icons i {
 }
 
 .contact .icons p {
-  color: #a9a9a9;
+  color: var(--paragraph-color);
   margin-right: 10px;
   text-wrap: nowrap;
 }
