@@ -346,6 +346,12 @@ header .icons i {
   gap: 80px;
 }
 
+@media (max-width: 767px) {
+  .services .container {
+    gap: 40px;
+  }
+}
+
 .services .box {
   background-color: var(--bg-main-color);
   transition: var(--main-transition);
@@ -370,12 +376,26 @@ header .icons i {
   font-size: 20px;
 }
 
+@media (max-width: 767px) {
+  .services .box .title {
+    width: 100%;
+    left: 0;
+  }
+}
+
 .services .box .title::before,
 .services .box .title::after {
   content: "";
   border-width: 10px;
   border-style: solid;
   position: absolute;
+}
+
+@media (max-width: 767px) {
+  .services .box .title::before,
+  .services .box .title::after {
+    display: none;
+  }
 }
 
 .services .box .title::before {
