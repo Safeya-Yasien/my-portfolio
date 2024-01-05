@@ -348,6 +348,7 @@ header .icons i {
 
 @media (max-width: 767px) {
   .services .container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     gap: 40px;
   }
 }
@@ -391,13 +392,6 @@ header .icons i {
   position: absolute;
 }
 
-@media (max-width: 767px) {
-  .services .box .title::before,
-  .services .box .title::after {
-    display: none;
-  }
-}
-
 .services .box .title::before {
   border-color: #5e4a77 #5e4a77 transparent transparent;
   left: 0;
@@ -408,6 +402,13 @@ header .icons i {
   border-color: #5e4a77 transparent transparent #5e4a77;
   right: 0;
   bottom: -19px;
+}
+
+@media (max-width: 767px) {
+  .services .box .title::before,
+  .services .box .title::after {
+    display: none;
+  }
 }
 
 .services .box p {
