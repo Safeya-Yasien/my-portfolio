@@ -133,20 +133,20 @@ header .toggle-menu {
   header .toggle-menu {
     padding: 0;
   }
+}
 
-  header .toggle-menu:hover + ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 50px;
-    width: calc(100% - 100px);
-    background-color: var(--bg-main-color);
-    left: 0;
-    width: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
-  }
+header .header-links.show-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  width: calc(100% - 100px);
+  background-color: var(--bg-main-color);
+  left: 0;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 header .links ul li a {
