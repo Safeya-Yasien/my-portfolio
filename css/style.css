@@ -237,6 +237,13 @@ header .icons i {
   white-space: nowrap;
   animation: control-width 3s steps(28) both;
 }
+.landing .text a{
+    font-size: 30px;
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: beige;
+}
 
 @keyframes control-width {
   from {
