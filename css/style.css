@@ -243,6 +243,10 @@ header .icons i {
     display: block;
     font-weight: bold;
     color: beige;
+    transition: var(--main-transition);
+}
+.landing .text a:hover{
+  color: black
 }
 
 @keyframes control-width {
