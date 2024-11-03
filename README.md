@@ -1,6 +1,6 @@
 Technologies
 
-- HTML, CSS
+- HTML, CSS, JS
 
 <hr>
 Live Demo:
